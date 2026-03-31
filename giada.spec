@@ -6,8 +6,8 @@ License:	GPLv3+
 Group:	Sound/Utilities
 Url:		https://giadamusic.com
 # Submodules are a pain...
-#Source0:	https://github.com/monocasual/giada/archive/v%%{version}/%%{name}-%%{version}-src.tar.gz
-Source0:	%{name}-%{version}.tar.xz
+Source0:	https://github.com/monocasual/giada/archive/v%{version}/%{name}-%{version}-src.tar.gz
+#Source0:	%%{name}-%%{version}.tar.xz
 Patch0:	giada-1.4.0-cmake-exclude-juce-amd-flt-from-all.patch
 Patch1:	giada-1.4.0-fmt.patch
 BuildRequires:	cmake >= 3.29
@@ -82,7 +82,7 @@ The program is:
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{name}-%{version}
+%autosetup -p1 -n %{name}-%{version}-src
 
 
 %build
