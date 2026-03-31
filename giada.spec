@@ -91,7 +91,7 @@ The program is:
 # system compiler.
 export OBJCXX=%{__cxx}
 %cmake -DWITH_TESTS=OFF -DWITH_VST=OFF -DWITH_VST3=ON -DCMAKE_CXX_FLAGS="-std=c++17 "
-%make_build
+%make_build -j1
 
 
 %install
