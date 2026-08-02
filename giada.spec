@@ -1,6 +1,6 @@
 Summary:	Music production tool
 Name:	giada
-Version:	1.4.1
+Version:	1.5.0
 Release:	1
 License:	GPLv3+
 Group:	Sound/Utilities
@@ -83,7 +83,7 @@ The program is:
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{name}-%{version}-src
+%autosetup -p1 -n %{name}-%{version}
 
 
 %build

@@ -1,6 +1,7 @@
-diff -rupN giada-1.4.0-src.old/src/core/engine.cpp giada-1.4.0-src/src/core/engine.cpp
---- giada-1.4.0-src.old/src/core/engine.cpp	2025-12-05 15:26:15.000000000 +0100
-+++ giada-1.4.0-src/src/core/engine.cpp	2026-03-24 15:28:03.108413637 +0100
+diff --git a/src/core/engine.cpp b/src/core/engine.cpp
+index 04cfa95..84ffb36 100644
+--- a/src/core/engine.cpp
++++ b/src/core/engine.cpp
 @@ -34,6 +34,7 @@
  #include "src/utils/string.h"
  #include <fmt/core.h>
